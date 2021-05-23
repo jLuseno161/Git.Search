@@ -7,8 +7,6 @@ Joy L. Kolia
 
 This is angular cli application that uses a GitHub API to display users names and descriptions of public repositories on username submit. User can also look for repositories
 
-# GitSearch
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
 View [live](https://jluseno161.github.io/GIt-Search/) demo.
