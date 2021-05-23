@@ -7,11 +7,11 @@
       <div class="col-md-5">
         <h1>Profile</h1>
         <div id="user_profile"> <img src="{{usr.avatar_url}}" alt=""></div>
-        Username :<p>{{usr.login}}</p>
-        Bio :<p>{{usr.bio}}</p>
-        Signedup on :<p>{{usr.created_at}}</p>
+        <p>{{usr.login}}</p>
+        <p>{{usr.bio}}</p>
         <p>User</p>
         <p>{{usr.location}}</p>
+        Member since:<p>{{usr.created_at}}</p>
         <div class="d-flex justify-content-start">
           Following<div class="f1 following">{{usr.following}}</div>
           Followers <div class="f1">{{usr.followers}}</div>
