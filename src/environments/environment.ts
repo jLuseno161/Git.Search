@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   access_token:'',
-  apiKey:'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',
+  apiKey:'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',
   // api_url:'https://api.github.com/users/rotich1?access_token=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',
   // repoUrl:'https://api.github.com/users/jluseno161/repos',
 
