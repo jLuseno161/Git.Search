@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <h1>User Profile</h1>
+      <img src="{{usr.avatar_url}}" alt="">
+      <p>{{usr.login}}</p>
+      <p>{{usr.bio}}</p>
+      <p>{{usr.created_at}}</p>
+      <p>{{usr.location}}</p>
+      <p>{{usr.following}}</p>
+      <p>{{usr.followers}}</p>
+    </div>
+
+    <div class="col-md-7">
+      <!-- <div *ngFor='let quote of quotes; let i = index;' class="card shadow-sm p-3 mb-3 bg-body rounded"> -->
+      <div>
+        <div class="card shadow-md p-3 mb-3 bg-body rounded">
+          <p>{{repo.name}}</p>
+          <p>{{repo.description}}</p>
+          <a href="{{repo.html_url}}"> Url</a>
+          <p>{{repo.updated_at}}</p>
+          <input type="button" value="View Project">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
