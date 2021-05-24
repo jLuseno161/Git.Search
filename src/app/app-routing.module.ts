@@ -6,6 +6,8 @@ import { ProfileComponent } from './component/profile/profile.component';
 const routes: Routes = [
   { path: '', component: LandingComponent },
   { path: 'profile', component: ProfileComponent },
+  { path: '**', component: NotFoundComponent },
+
 
 
 ];
