@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { DateCountPipe } from './pipe/date-count.pipe';
 import { NavbarComponent } from './component/navbar/navbar.component';
+import { OnhoverDirective } from './onhover.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavbarComponent } from './component/navbar/navbar.component';
     ProfileComponent,
     NotFoundComponent,
     DateCountPipe,
-    NavbarComponent
+    NavbarComponent,
+    OnhoverDirective
   ],
   imports: [
     BrowserModule,
