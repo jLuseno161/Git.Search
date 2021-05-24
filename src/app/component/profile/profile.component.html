@@ -6,13 +6,15 @@
       <div class="col-md-5">
         <h1 style="color: #1a2555; margin-bottom:10%">User Profile</h1>
         <div id="user_profile"> <img src="{{usr.avatar_url}}" alt=""></div>
-        <p>{{usr.login}}</p>
-        <p>{{usr.bio}}</p>
-        <p>Signedup on : {{usr.created_at| date}}</p>
-        <p>{{usr.location}}</p>
-        <div class="d-flex justify-content-start">
-          Following<div class="f1 following">{{usr.following}}</div>
-          Followers <div class="f1">{{usr.followers}}</div>
+        <div class="userInfo">
+          <p class="uname">{{usr.login}}</p>
+          <p>{{usr.bio}}</p>
+          <p>Signedup on : {{usr.created_at| date}}</p>
+          <p>Location: {{usr.location}}</p>
+          <div class="d-flex justify-content-start">
+            Following:<div class="f1 following">{{usr.following}}</div>
+            Followers:<div class="f1">{{usr.followers}}</div>
+          </div>
         </div>
       </div>
       <div class="col-md-7">
@@ -45,7 +47,7 @@
             <p>{{ repo.description }}</p>
             <div class="d-flex justify-content-between">
 
-              <a  href="{{ repo.html_url }}" target="_blank">
+              <a href="{{ repo.html_url }}" target="_blank">
                 <button appOnhover style="color: white; background-color:#1a2555" class="btn btn-info">View on GitHub <i
                     class="fab fa-github"></i></button>
               </a>
