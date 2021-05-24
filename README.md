@@ -9,7 +9,7 @@ This is angular cli application that uses a GitHub API to display users names an
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
-View [live](https://jluseno161.github.io/GIt-Search/) demo.
+View [live](https://jluseno161.github.io/GIt.Search/) demo.
 
 ## Development server
 
@@ -36,7 +36,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To acces this project, you can clone it using these steps; 
 
 - Open your terminal (Ctrl+Alt+T)
-- git clone `$ git clone https://github.com/jLuseno161/GIt-Search.git`
+- git clone `$ git clone https://github.com/jLuseno161/GIt.Search.git`
 - `cd Quote`
 - `code .` or `atom .` based on the text editor you have.
 
