@@ -9,6 +9,7 @@ import { NotFoundComponent } from './component/not-found/not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { DateCountPipe } from './pipe/date-count.pipe';
+import { NavabarComponent } from './component/navbar/navabar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DateCountPipe } from './pipe/date-count.pipe';
     LandingComponent,
     ProfileComponent,
     NotFoundComponent,
-    DateCountPipe
+    DateCountPipe,
+    NavabarComponent
   ],
   imports: [
     BrowserModule,
