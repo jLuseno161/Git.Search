@@ -4,6 +4,8 @@ import { LandingComponent } from './component/landing/landing.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
+  { path: 'profile', component: ProfileComponent },
+
 
 ];
 
