@@ -14,7 +14,6 @@ export class UserService {
   repo: Repository;
   // repo = [];
   username!: string;
-  private apiKey = environment.apiKey;
   newUserData: any = []
   //private clientId = environment.clientId;
 
@@ -35,7 +34,7 @@ export class UserService {
       created_at: Date
     }
     let promise = new Promise<void>((resolve, reject) => {
-      this.http.get<ApiResponse>(`https://api.github.com/users/${username}?access_token=${this.apiKey}`)
+      this.http.get<ApiResponse>(`https://api.github.com/users/${username}?`)
         .toPromise().then(response => {
           this.user.login = response.login
           this.user.avatar_url = response.avatar_url

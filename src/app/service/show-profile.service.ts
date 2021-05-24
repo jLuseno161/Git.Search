@@ -13,7 +13,7 @@ export class ShowProfileService {
   user: User;
   repo: Repository;
   username!: string;
-  private apiKey = environment.apiKey;
+  // private apiKey = environment.apiKey;
 
   constructor(private http: HttpClient) {
     this.user = new User("", "", 0, 0, "", "", "", new Date())
@@ -50,7 +50,7 @@ export class ShowProfileService {
       updated_at: Date
     }
     let promise = new Promise<void>((resolve, reject) => {
-      this.http.get<ApiResponse>(`https://api.github.com/users/${username}?access_token=${this.apiKey}`)
+      this.http.get<ApiResponse>(`https://api.github.com/users/${username}?`)
         .toPromise().then(response => {
           this.user.login = response.login
           this.user.avatar_url = response.avatar_url

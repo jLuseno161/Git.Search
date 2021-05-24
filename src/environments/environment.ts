@@ -5,10 +5,6 @@
 export const environment = {
   production: false,
   access_token:'',
-  apiKey:'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',
-  // api_url:'https://api.github.com/users/rotich1?access_token=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',
-  // repoUrl:'https://api.github.com/users/jluseno161/repos',
-
   token: "string",
   clientId: "string",
   clientSecret: "string"
