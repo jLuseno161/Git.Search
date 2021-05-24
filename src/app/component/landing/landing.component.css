@@ -1,3 +1,16 @@
 .container {
-  margin-top: 20%;
+  margin-top: 15%;
+  font-weight: 700;
+}
+#welcome{
+color: navy;
+font-size: 45pt;
+margin-bottom: 2%;
+}
+.description{
+    color:goldenrod;
+}
+.copyright{
+    color: navy;
+
 }
