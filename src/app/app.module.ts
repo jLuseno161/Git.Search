@@ -9,7 +9,7 @@ import { NotFoundComponent } from './component/not-found/not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { DateCountPipe } from './pipe/date-count.pipe';
-import { NavabarComponent } from './component/navbar/navabar.component';
+import { NavbarComponent } from './component/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { NavabarComponent } from './component/navbar/navabar.component';
     ProfileComponent,
     NotFoundComponent,
     DateCountPipe,
-    NavabarComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
