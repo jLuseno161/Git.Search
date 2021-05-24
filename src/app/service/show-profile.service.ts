@@ -13,7 +13,6 @@ export class ShowProfileService {
   user: User;
   repo: Repository;
   username!: string;
-  // private apiKey = environment.apiKey;
 
   constructor(private http: HttpClient) {
     this.user = new User("", "", 0, 0, "", "", "", new Date())
