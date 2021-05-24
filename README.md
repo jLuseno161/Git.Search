@@ -9,7 +9,8 @@ This is angular cli application that uses a GitHub API to display users names an
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
-View [live](https://jluseno161.github.io/GIt.Search/) demo.
+View [live](https://jluseno161.github.io/Git.Search/) demo.
+
 
 ## Development server
 
