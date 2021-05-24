@@ -12,6 +12,6 @@ export class OnhoverDirective {
   }
 
   @HostListener('mouseout') onOut() {
-    this.el.nativeElement.style.backgroundColor = '#fff';
+    this.el.nativeElement.style.backgroundColor = '#1a2555';
   }
 }

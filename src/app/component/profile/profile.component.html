@@ -45,8 +45,8 @@
             <p>{{ repo.description }}</p>
             <div class="d-flex justify-content-between">
 
-              <a href="{{ repo.html_url }}" target="_blank">
-                <button style="color: white; background-color:#1a2555" class="btn btn-info">View on GitHub <i
+              <a  href="{{ repo.html_url }}" target="_blank">
+                <button appOnhover style="color: white; background-color:#1a2555" class="btn btn-info">View on GitHub <i
                     class="fab fa-github"></i></button>
               </a>
               <small style="margin-top: 6%"><span class="text-muted">Last modified:</span> {{ repo.updated_at| date
